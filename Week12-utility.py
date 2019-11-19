@@ -24,3 +24,9 @@ def UpdateString(orig, let, ind):
     return orig
 
 
+def FindWordCount(lis, burd): #because thebird is theword
+    out = 0
+    for w in lis:
+        if w == burd:
+            out += 1
+    return out
