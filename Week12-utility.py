@@ -13,3 +13,14 @@ def LoadFile(nm):
     return out
 
 
+def UpdateString(orig, let, ind):
+    origl = []
+    for l in orig:
+        origl.append(l)
+    origl[ind] = let
+    orig = ''
+    for l in origl:
+        orig += l
+    return orig
+
+
